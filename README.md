@@ -4,54 +4,154 @@ Repository containing the lectures and homework of the IOG's Haskell Bootcamp
 
 ## What we'll cover
 
-### Module I - Haskell for Marlowe
+### Week 1
 
-#### Week 1
+#### Intro and tools
+- Intro to the course and lectures
+    - What we’ll cover
+    - Repository structure
+- Intro to Haskell
+    - How to open and use JupyterLab
+    - Purely functional programming language
+    - Basic syntax
+    - Haskell Type system
+    - Lazyness
+    - GHC (and GHCi)
+- GitPod
+    - How to open and use GitPod
+    - Example of how to complete a homework assignment.
 
-- Intro and tools
-- Functions, Data types, and Signatures
-- Pattern matching, let, where
-- More on functions and lists
-- Q/A Session
+#### Functions, Data types, and Signatures
+- Intro to types and signatures (only the fundamentals)
+- Data types:
+    - Int, Integer, Float, Double
+    - Bool (+ inequality testing on numbers)
+    - Char
+    - Lists (only syntax to later understand Strings)
+    - Strings
+    - Tuples + Tuples VS Strings
+- Functions 
+    - Function’s signatures
+    - Infix and prefix functions
+- Variables in Haskell 
+    - Immutable
+    - Parameters in functions
+    - Names/Definitions
+    - Signatures
+- Polymorphic values and type variables
 
-#### Week 2
+#### Pattern matching, let, where
+- If-then-else
+- What is pattern matching
+- Where can I use pattern matching + nested pattern matching
+    - Pattern matching on function implementations
+    - Pattern matching on tuples
+    - PM on lists
+- Let and where
+- Case
+- Guards
+- When to pattern match, if, case, and guards
 
-- Intro to Type Classes
-- Creating types and type classes
-- Basic I/O
-- Complete CLI project (tentative)
-- Q/A Session
+#### More on functions and lists
+- Higher order functions
+- Curied functions
+- Partial application
+- Composing and applying functions (`.` and `$` operators)
+- Recursion
+- Dealing with lists
+    - `zip`
+    - `map`
+    - `foldl`, `foldr`, `scan`
+- Lambda functions
 
-#### Week 3
+### Week 2
 
-- Modules and Cabal
-- Learning on your own
-- Maybe and Either
-- Complete project from start to finish (tentative)
-- Q/A Session
+#### Intro to Type Classes
+- What are type classes?
+- Common type classes 
+    - `Eq`
+    - `Ord`
+    - `Integral`
+    - `Floating`
+    - `Num`
+    - Mentioning `Read`, `Show`, `Enum`, `Bounded`, and `Foldable`.
+- Class constraints with examples
 
-### Module II - Haskell for Plutus
+#### Creating Types
+- Type synonyms
+    - How to define type synonyms
+    - Why use type synonyms
+- Defining new types
+    - `data`
+    - Value parameters
+    - Pattern matching types
+    - Record syntax
+- Parameterizing types
+    - Parameterizing type synonyms
+    - Parameterizing new types
+- Honorable mention of `newType`
 
-#### Week 1
+#### Creating Type Classes and Instances
+- Classees
+- Instances
+- Subclass
+- Complete example
 
-- Identifying the pattern
-- Monads
-- Q/A Session
+#### Basic IO
+- We need side effects
+- What is IO
+- main + putStrLn + composing other functions
+- `>>`
+- `>>=`
+- do notation
+    - `do`
+    - `<-`
+    - `let`
+- Some examples
+- Read/Write to console
+- Read/Write to file
 
-#### Week 2
+#### Complete project using IO
+- Maybe a basic blockchain-like data structure with interactive CLI? (#todo: define project)
 
-- More monads
-- Composing functors and applicatives
-- Transformers
-- Complete State Machines project using Compose and Monad T
-- Q/A Session
+### Week 3
 
-#### Week 3
+#### Pragmas, Modules, and Cabal
+- Prelude
+- pragmas/extensions
+- Overview of base modules
+- Importing base modules
+- A few modules
+    - Data.Char
+    - Data.Tuple
+    - Data.Array
+- Creating our own modules
+- Cabal
+    - What is it and why we use it
+    - Cabal file
+    - Using external libraries with Cabal
 
-- Testing
-- Type Level Programming
-- Useful Libraries (Template Haskell, Lens, etc.)
-- Q/A Session
+#### Learning on you own and Map
+- Using GHCi to find out more
+- Hoogle
+- HaskellWiki
+- Walking through while teaching Map module
+
+#### Maybe and Either (only practical use)
+- Maybe
+    - Why and when to use Maybe
+    - Syntax
+    - Examples
+- Either
+    - Why and when to use Either
+    - Syntax
+    - Examples
+- Project using Maybe and IO
+
+#### Final project
+- Final project recapping all the concepts
+
+**If you want to continue your Haskell education, we invite you to complete the [Haskell for Plutus](#todo) bootcamp.**
 
 ## Repository structure
 
