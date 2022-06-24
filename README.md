@@ -29,7 +29,7 @@ Repository containing the lectures and homework of the IOG's Haskell Bootcamp
     - Char
     - Lists (only syntax to later understand Strings)
     - Strings
-    - Tuples + Tuples VS Strings
+    - Tuples + Tuples VS Lists
 - Functions 
     - Function’s signatures
     - Infix and prefix functions
