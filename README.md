@@ -25,7 +25,7 @@ Everything else can be safely ignored
 
 ## How to read/watch the lessons
 
-To go through the interactive lessons, go to your chosen lesson's outline inside "[What we'll cover](#what-we'll-cover)" and click on the button that looks like this:
+To go through the interactive lessons, go to your chosen lesson's outline inside "[What we'll cover](#what-well-cover)" and click on the button that looks like this:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/input-output-hk/haskell-for-marlowe-bootcamp/HEAD?labpath=%2Flessons%2F%2FWeek01%2F1.1-Introduction-to-haskell.ipynb)
 
