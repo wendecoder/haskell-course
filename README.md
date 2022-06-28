@@ -1,6 +1,9 @@
-# HaskellBootcamp
+# Haskell For Marlowe Bootcamp
 
-Repository containing the lectures and homework of the IOG's Haskell Bootcamp
+This Bootcamp is designed to teach students Haskell from zero to everything needed to work with Marlowe. It also serves as a stepping stone for the "Haskell for Plutus" Bootcamp that we'll release after this one.
+
+For a more detailed explanation, see the lesson's 1 video:
+[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=flat&logo=YouTube&logoColor=white)](https://www.youtube.com/channel/UCX9j__vYOJu00iqBrCzecVw)
 
 ## Repository structure
 
@@ -20,21 +23,31 @@ Repository containing the lectures and homework of the IOG's Haskell Bootcamp
 
 Everything else can be safely ignored
 
-## To view the interactive lessons click on the button below
+## How to read/watch the lessons
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/input-output-hk/haskell-for-marlowe-bootcamp/HEAD?labpath=%2Flessons%2F%2FWeek01%2F1.1-Introduction-to-haskell.ipynb)
+To go through the interactive lessons, go to your chosen lesson's outline inside "[What we'll cover](##what-we'll-cover)" and click on the button that looks like this:
+
+![Binder](https://mybinder.org/badge_logo.svg)
+
+And to see the video, click on the button that looks like this:
+
+![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=flat&logo=YouTube&logoColor=white)
 
 ## To do the homework
 
 1. Clone this repository.
 2. Create a [GitPod](https://www.gitpod.io/) account.
-3. Select the `code/WeekXX` folder with the homework you want to complete.
-4. Click this button to create a remote dev environment: [![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=flat&logo=visual-studio-code&logoColor=white)](https://gitpod.io/#https://github.com/rober-m/haskell-bootcamp)
+3. Click this button to create a remote dev environment: [![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=flat&logo=visual-studio-code&logoColor=white)](https://gitpod.io/#https://github.com/rober-m/haskell-bootcamp)
+4. Select the `code/HomeworkXX` folder with the homework you want to complete.
 5. Follow the instructions inside the app/Main.hs file.
 
 ## What we'll cover
 
-### 1. Intro and tools
+**This is a tentative outline. Changes can (and will) be made as we advance with the course and gather feedback from students.**
+
+**If there are no buttons on a lesson, it means that it's not published yet.**
+
+### 1. Intro and tools [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/input-output-hk/haskell-for-marlowe-bootcamp/HEAD?labpath=%2Flessons%2F%2FWeek01%2F1.1-Introduction-to-haskell.ipynb) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=flat&logo=YouTube&logoColor=white)](https://www.youtube.com/channel/UCX9j__vYOJu00iqBrCzecVw)
 
 - Intro to the course and lectures
   - What we’ll cover
@@ -124,11 +137,11 @@ Everything else can be safely ignored
   - Parameterizing new types
 - Honorable mention of `newType`
 
-#### 7. Creating Type Classes and Instances
+### 7. Creating Type Classes and Instances
 
-- #TODO
+- #To define
 
-#### Basic IO
+### 8. Basic IO
 
 - We need side effects
 - What is IO
@@ -143,11 +156,11 @@ Everything else can be safely ignored
 - Read/Write to console
 - Read/Write to file
 
-### Complete project using IO
+### 9. Complete project using IO
 
-- #TODO
+- #To define
 
-### Pragmas, Modules, and Cabal
+### 10. Pragmas, Modules, and Cabal
 
 - Prelude
 - pragmas/extensions
@@ -163,14 +176,14 @@ Everything else can be safely ignored
   - Cabal file
   - Using external libraries with Cabal
 
-### Learning on you own and Map
+### 11. Learning on you own and Map
 
 - Using GHCi to find out more
 - Hoogle
 - HaskellWiki
 - Walking through while teaching Map module
 
-### Maybe and Either (only practical use)
+### 12. Maybe and Either (only practical use)
 
 - Maybe
   - Why and when to use Maybe
@@ -182,8 +195,9 @@ Everything else can be safely ignored
   - Examples
 - Project using Maybe and IO
 
-### Final project
+### 13. Aeson and final project
 
+- Aeson
 - Final project recapping all the concepts
 
 **If you want to continue your Haskell education, we invite you to complete the [Haskell for Plutus](#todo) bootcamp.**
