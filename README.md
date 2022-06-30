@@ -2,6 +2,8 @@
 
 This Bootcamp is designed to teach students Haskell from zero to everything needed to work with Marlowe. It also serves as a stepping stone for the "Haskell for Plutus" Bootcamp that we'll release after this one.
 
+**The course itself doesn't contain content specific to Marlowe. So, if you want to learn Haskell for other purposes, you can use this course too!** 😃
+
 For a more detailed explanation, see the lesson's 1 video:
 [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=flat&logo=YouTube&logoColor=white)](https://www.youtube.com/channel/UCX9j__vYOJu00iqBrCzecVw)
 
