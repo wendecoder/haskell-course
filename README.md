@@ -102,7 +102,7 @@ And to see the video, click on the button that looks like this:
 ### 4. More on functions and lists
 
 - Higher order functions
-- Curied functions
+- Curried functions
 - Partial application
 - Composing and applying functions (`.` and `$` operators)
 - Recursion
