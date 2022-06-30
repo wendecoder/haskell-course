@@ -200,4 +200,4 @@ And to see the video, click on the button that looks like this:
 - Aeson
 - Final project recapping all the concepts
 
-**If you want to continue your Haskell education, we invite you to complete the [Haskell for Plutus](#todo) bootcamp.**
+**If you want to continue your Haskell education, we invite you to complete the [Haskell for Plutus](#todo) (#todo) bootcamp.**
