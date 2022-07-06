@@ -1,29 +1,13 @@
-# Haskell For Marlowe Bootcamp
+# Haskell Course
 
-This Bootcamp is designed to teach students Haskell from zero to everything needed to work with Marlowe. It also serves as a stepping stone for the "Haskell for Plutus" Bootcamp that we'll release after this one.
+**This course is designed to teach students Haskell from zero to everything needed to work with Marlowe and Plutus.** The course itself doesn't contain content specific to Marlowe or Plutus. So, if you want to use it to learn Haskell for other purposes, you can! 😃
 
-**The course itself doesn't contain content specific to Marlowe. So, if you want to learn Haskell for other purposes, you can use this course too!** 😃
-
-For a more detailed explanation, see the lesson's 1 video:
+For a more detailed explanation, keep reading or watch the introduction video:
 [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=flat&logo=YouTube&logoColor=white)](https://www.youtube.com/channel/UCX9j__vYOJu00iqBrCzecVw)
 
-## Repository structure
+## How much should I study if I only want to use Marlowe/Plutus?
 
-    Haskell-Bootcamp
-        |   |
-        |   |---- code
-        |          |
-        |          |---- Homework01 (homework for lesson 01)
-        |          |---- Homework02 (homework for lesson 02)
-        |          ...
-        |
-        |-------- lessons <- Lessons in Juptyer notebook format (accessed
-                   |      through Binder. See instructions below.)
-                   |
-                   |---- 1-Introduction-to-haskell
-                   |---- 2-Functions-Data-Types-and-Signatures
-
-Everything else can be safely ignored
+In the [outline](#what-well-cover) below, there are clear stopping points (for both Marlowe and Plutus) where we deem you to know enough Haskell to effectively use the technology.
 
 ## How to read/watch the lessons
 
@@ -35,6 +19,8 @@ And to see the video, click on the button that looks like this:
 
 [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=flat&logo=YouTube&logoColor=white)](https://www.youtube.com/channel/UCX9j__vYOJu00iqBrCzecVw)
 
+
+
 ## To do the homework
 
 1. Clone this repository.
@@ -42,6 +28,24 @@ And to see the video, click on the button that looks like this:
 3. Click this button to create a remote dev environment: [![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=flat&logo=visual-studio-code&logoColor=white)](https://gitpod.io/#https://github.com/rober-m/haskell-bootcamp)
 4. Select the `code/HomeworkXX` folder with the homework you want to complete.
 5. Follow the instructions inside the app/Main.hs file.
+
+#### Repository structure
+
+    Haskell-Course
+        |   |
+        |   |---- code
+        |          |
+        |          |---- Homework01 (Homework for lesson 01)
+        |          |---- Homework02 (Homework for lesson 02)
+        |          ...
+        |
+        |-------- lessons (Lessons in Juptyer notebook format. Access through Binder.)
+                   |
+                   |---- 1-Introduction-to-haskell
+                   |---- 2-Functions-Data-Types-and-Signatures
+
+Everything else can be safely ignored
+
 
 ## What we'll cover
 
@@ -197,9 +201,17 @@ And to see the video, click on the button that looks like this:
   - Examples
 - Project using Maybe and IO
 
-### 13. Aeson and final project
+### 13. Aeson and final project for Marlowe students
 
 - Aeson
 - Final project recapping all the concepts
+                                                        
+---
+#### YOU'RE READY FOR MARLOWE! 🥳🎉 (Keep going for Plutus.)
+---
 
-**If you want to continue your Haskell education, we invite you to complete the [Haskell for Plutus](#todo) (#todo) bootcamp.**
+### 14. Identifying the pattern
+    - #TODO
+    
+### 15. Monads (most likely will split in several lessons)
+    - #TODO
