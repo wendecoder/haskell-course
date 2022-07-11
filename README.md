@@ -152,7 +152,16 @@ Everything else can be safely ignored
 
 ### 9. Creating Type Classes and Instances
 
-- #To define
+- Revisiting Type Classes
+- The `Eq` type class
+	- Defining the `Eq` type class
+	- Defining an instance for the `Eq` type class
+	- Improving our `Eq` type class (minimal complete definition)
+	- Defining an instance for a parameterize type.
+- The `Ord` type class
+	- Exploring `Ord` type class (Subclassing)
+- Deriving
+- Complete example
 
 ### 10. Basic IO
 
