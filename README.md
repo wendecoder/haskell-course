@@ -1,33 +1,19 @@
-# Haskell For Marlowe Bootcamp
+# Haskell Course
 
-This Bootcamp is designed to teach students Haskell from zero to everything needed to work with Marlowe. It also serves as a stepping stone for the "Haskell for Plutus" Bootcamp that we'll release after this one.
+**This course is designed to teach students Haskell from zero to everything needed to work with Marlowe and Plutus.** The course itself doesn't contain content specific to Marlowe or Plutus. So, if you want to use it to learn Haskell for other purposes, you can! 😃
 
-For a more detailed explanation, see the lesson's 1 video:
+For a more detailed explanation, keep reading or watch the introduction video:
 [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=flat&logo=YouTube&logoColor=white)](https://www.youtube.com/channel/UCX9j__vYOJu00iqBrCzecVw)
 
-## Repository structure
+## How much should I study if I only want to use Marlowe/Plutus?
 
-    Haskell-Bootcamp
-        |   |
-        |   |---- code
-        |          |
-        |          |---- Homework01 (homework for lesson 01)
-        |          |---- Homework02 (homework for lesson 02)
-        |          ...
-        |
-        |-------- lessons <- Lessons in Juptyer notebook format (accessed
-                   |      through Binder. See instructions below.)
-                   |
-                   |---- 1-Introduction-to-haskell
-                   |---- 2-Functions-Data-Types-and-Signatures
-
-Everything else can be safely ignored
+In the [outline](#what-well-cover) below, there are clear stopping points (for both Marlowe and Plutus) where we deem you to know enough Haskell to effectively use the technology.
 
 ## How to read/watch the lessons
 
 To go through the interactive lessons, go to your chosen lesson's outline inside "[What we'll cover](#what-well-cover)" and click on the button that looks like this:
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/input-output-hk/haskell-for-marlowe-bootcamp/HEAD?labpath=%2Flessons%2F%2FWeek01%2F1.1-Introduction-to-haskell.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/input-output-hk/haskell-course/HEAD?labpath=%2Flessons%2F1-Introduction-to-haskell.ipynb)
 
 And to see the video, click on the button that looks like this:
 
@@ -41,13 +27,30 @@ And to see the video, click on the button that looks like this:
 4. Select the `code/HomeworkXX` folder with the homework you want to complete.
 5. Follow the instructions inside the app/Main.hs file.
 
+#### Repository structure
+
+    Haskell-Course
+        |   |
+        |   |---- code
+        |          |
+        |          |---- Homework01 (Homework for lesson 01)
+        |          |---- Homework02 (Homework for lesson 02)
+        |          ...
+        |
+        |-------- lessons (Lessons in Juptyer notebook format. Access through Binder.)
+                   |
+                   |---- 1-Introduction-to-haskell
+                   |---- 2-Functions-Data-Types-and-Signatures
+
+Everything else can be safely ignored
+
 ## What we'll cover
 
 **This is a tentative outline. Changes can (and will) be made as we advance with the course and gather feedback from students.**
 
 **If there are no buttons on a lesson, it means that it's not published yet.**
 
-### 1. Intro and tools [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/input-output-hk/haskell-for-marlowe-bootcamp/HEAD?labpath=%2Flessons%2F%2FWeek01%2F1.1-Introduction-to-haskell.ipynb) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=flat&logo=YouTube&logoColor=white)](https://www.youtube.com/channel/UCX9j__vYOJu00iqBrCzecVw)
+### 1. Intro and tools [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/input-output-hk/haskell-course/HEAD?labpath=%2Flessons%2F1-Introduction-to-haskell.ipynb) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=flat&logo=YouTube&logoColor=white)](https://www.youtube.com/channel/UCX9j__vYOJu00iqBrCzecVw)
 
 - Intro to the course and lectures
   - What we’ll cover
@@ -84,7 +87,7 @@ And to see the video, click on the button that looks like this:
   - Names/Definitions
 - Polymorphic values and type variables
 
-### 3. Pattern matching, let, where
+### 3. Pattern matching and how to write functions
 
 - If-then-else
 - What is pattern matching
@@ -92,25 +95,32 @@ And to see the video, click on the button that looks like this:
   - Pattern matching on function implementations
   - Pattern matching on on lists
   - Pattern matching on tuples
-- Let and where
 - Case
 - Guards
+- Let and where
 - When to pattern match, if, case, and guards
 
-### 4. More on functions and lists
+### 4. Improving and combining functions
 
 - Higher order functions
-- Curied functions
+- Curried functions
 - Partial application
 - Composing and applying functions (`.` and `$` operators)
-- Recursion
-- Dealing with lists
-  - `zip`
-  - `map`
-  - `foldl`, `foldr`, `scan`
 - Lambda functions
 
-### 5. Intro to Type Classes
+### 5. Recursion
+
+- Concept
+- Examples
+
+### 6. Dealing with lists
+
+- `zip`
+- `map`
+- `foldl`, `foldr`
+- `scan`
+
+### 7. Intro to Type Classes
 
 - What are type classes?
 - Common type classes
@@ -122,7 +132,7 @@ And to see the video, click on the button that looks like this:
   - Mentioning `Read`, `Show`, `Enum`, `Bounded`, and `Foldable`.
 - Class constraints with examples
 
-### 6. Creating Types
+### 8. Creating Types
 
 - Type synonyms
   - How to define type synonyms
@@ -137,11 +147,20 @@ And to see the video, click on the button that looks like this:
   - Parameterizing new types
 - Honorable mention of `newType`
 
-### 7. Creating Type Classes and Instances
+### 9. Creating Type Classes and Instances
 
-- #To define
+- Revisiting Type Classes
+- The `Eq` type class
+  - Defining the `Eq` type class
+  - Defining an instance for the `Eq` type class
+  - Improving our `Eq` type class (minimal complete definition)
+  - Defining an instance for a parameterize type.
+- The `Ord` type class
+  - Exploring `Ord` type class (Subclassing)
+- Deriving
+- Complete example
 
-### 8. Basic IO
+### 10. Basic IO
 
 - We need side effects
 - What is IO
@@ -156,11 +175,11 @@ And to see the video, click on the button that looks like this:
 - Read/Write to console
 - Read/Write to file
 
-### 9. Complete project using IO
+### 11. Complete project using IO
 
 - #To define
 
-### 10. Pragmas, Modules, and Cabal
+### 12. Pragmas, Modules, and Cabal
 
 - Prelude
 - pragmas/extensions
@@ -176,14 +195,14 @@ And to see the video, click on the button that looks like this:
   - Cabal file
   - Using external libraries with Cabal
 
-### 11. Learning on you own and Map
+### 13. Learning on you own and Map
 
 - Using GHCi to find out more
 - Hoogle
 - HaskellWiki
 - Walking through while teaching Map module
 
-### 12. Maybe and Either (only practical use)
+### 14. Maybe and Either (only practical use)
 
 - Maybe
   - Why and when to use Maybe
@@ -195,9 +214,21 @@ And to see the video, click on the button that looks like this:
   - Examples
 - Project using Maybe and IO
 
-### 13. Aeson and final project
+### 15. Aeson and final project for Marlowe students
 
 - Aeson
 - Final project recapping all the concepts
 
-**If you want to continue your Haskell education, we invite you to complete the [Haskell for Plutus](#todo) bootcamp.**
+---
+
+#### YOU'RE READY FOR MARLOWE! 🥳🎉 (Keep going for Plutus.)
+
+---
+
+### 16. Identifying the pattern
+
+    - #TODO
+
+### 17. Monads (most likely will split in several lessons)
+
+    - #TODO
