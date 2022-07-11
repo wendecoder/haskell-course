@@ -90,7 +90,7 @@ Everything else can be safely ignored
   - Names/Definitions
 - Polymorphic values and type variables
 
-### 3. Pattern matching, let, where
+### 3. Pattern matching and how to write functions
 
 - If-then-else
 - What is pattern matching
@@ -98,25 +98,32 @@ Everything else can be safely ignored
   - Pattern matching on function implementations
   - Pattern matching on on lists
   - Pattern matching on tuples
-- Let and where
 - Case
 - Guards
+- Let and where
 - When to pattern match, if, case, and guards
 
-### 4. More on functions and lists
+### 4. Improving and combining functions
 
 - Higher order functions
 - Curried functions
 - Partial application
 - Composing and applying functions (`.` and `$` operators)
-- Recursion
-- Dealing with lists
-  - `zip`
-  - `map`
-  - `foldl`, `foldr`, `scan`
 - Lambda functions
 
-### 5. Intro to Type Classes
+### 5. Recursion
+
+- Concept
+- Examples
+
+### 6. Dealing with lists
+
+- `zip`
+- `map`
+- `foldl`, `foldr`
+- `scan`
+
+### 7. Intro to Type Classes
 
 - What are type classes?
 - Common type classes
@@ -128,7 +135,7 @@ Everything else can be safely ignored
   - Mentioning `Read`, `Show`, `Enum`, `Bounded`, and `Foldable`.
 - Class constraints with examples
 
-### 6. Creating Types
+### 8. Creating Types
 
 - Type synonyms
   - How to define type synonyms
@@ -143,11 +150,11 @@ Everything else can be safely ignored
   - Parameterizing new types
 - Honorable mention of `newType`
 
-### 7. Creating Type Classes and Instances
+### 9. Creating Type Classes and Instances
 
 - #To define
 
-### 8. Basic IO
+### 10. Basic IO
 
 - We need side effects
 - What is IO
@@ -162,11 +169,11 @@ Everything else can be safely ignored
 - Read/Write to console
 - Read/Write to file
 
-### 9. Complete project using IO
+### 11. Complete project using IO
 
 - #To define
 
-### 10. Pragmas, Modules, and Cabal
+### 12. Pragmas, Modules, and Cabal
 
 - Prelude
 - pragmas/extensions
@@ -182,14 +189,14 @@ Everything else can be safely ignored
   - Cabal file
   - Using external libraries with Cabal
 
-### 11. Learning on you own and Map
+### 13. Learning on you own and Map
 
 - Using GHCi to find out more
 - Hoogle
 - HaskellWiki
 - Walking through while teaching Map module
 
-### 12. Maybe and Either (only practical use)
+### 14. Maybe and Either (only practical use)
 
 - Maybe
   - Why and when to use Maybe
@@ -201,7 +208,7 @@ Everything else can be safely ignored
   - Examples
 - Project using Maybe and IO
 
-### 13. Aeson and final project for Marlowe students
+### 15. Aeson and final project for Marlowe students
 
 - Aeson
 - Final project recapping all the concepts
@@ -210,8 +217,8 @@ Everything else can be safely ignored
 #### YOU'RE READY FOR MARLOWE! 🥳🎉 (Keep going for Plutus.)
 ---
 
-### 14. Identifying the pattern
+### 16. Identifying the pattern
     - #TODO
     
-### 15. Monads (most likely will split in several lessons)
+### 17. Monads (most likely will split in several lessons)
     - #TODO
