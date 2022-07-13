@@ -19,8 +19,6 @@ And to see the video, click on the button that looks like this:
 
 [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=flat&logo=YouTube&logoColor=white)](https://www.youtube.com/channel/UCX9j__vYOJu00iqBrCzecVw)
 
-
-
 ## To do the homework
 
 1. Clone this repository.
@@ -45,7 +43,6 @@ And to see the video, click on the button that looks like this:
                    |---- 2-Functions-Data-Types-and-Signatures
 
 Everything else can be safely ignored
-
 
 ## What we'll cover
 
@@ -154,12 +151,12 @@ Everything else can be safely ignored
 
 - Revisiting Type Classes
 - The `Eq` type class
-	- Defining the `Eq` type class
-	- Defining an instance for the `Eq` type class
-	- Improving our `Eq` type class (minimal complete definition)
-	- Defining an instance for a parameterize type.
+  - Defining the `Eq` type class
+  - Defining an instance for the `Eq` type class
+  - Improving our `Eq` type class (minimal complete definition)
+  - Defining an instance for a parameterize type.
 - The `Ord` type class
-	- Exploring `Ord` type class (Subclassing)
+  - Exploring `Ord` type class (Subclassing)
 - Deriving
 - Complete example
 
@@ -221,13 +218,17 @@ Everything else can be safely ignored
 
 - Aeson
 - Final project recapping all the concepts
-                                                        
+
 ---
+
 #### YOU'RE READY FOR MARLOWE! 🥳🎉 (Keep going for Plutus.)
+
 ---
 
 ### 16. Identifying the pattern
+
     - #TODO
-    
+
 ### 17. Monads (most likely will split in several lessons)
+
     - #TODO

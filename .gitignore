@@ -25,3 +25,7 @@ cabal.project.local~
 # JupyterLab
 .ipynb_checkpoints
 lab/.ipynb_checkpoints
+
+
+# Custom
+scripts
