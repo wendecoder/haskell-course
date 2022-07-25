@@ -66,25 +66,24 @@ Everything else can be safely ignored
   - How to open and use GitPod
   - Example of how to complete a homework assignment.
 
-### 2. Functions, Data types, and Signatures
+### 2. Data types, Signatures, Common data types, and Polymorphism
 
-- Intro to types and signatures
-- Fraquently used types
-- Function’s signatures
+- Pragmatic intro to types
+- Type signature
+    - Function’s signatures
+    - Variables in Haskell
+        - Parameters in functions
+        - Names/Definitions
 - Infix and prefix functions
-- Types in depth
-  - Numeric types
+- Data Types in depth
     - Int, Integer
     - Float, Double
     - Rational
-  - Bool
-  - Char
-  - Lists
-  - Strings
-  - Tuples + Tuples VS Lists
-- Variables in Haskell
-  - Parameters in functions
-  - Names/Definitions
+    - Bool
+    - Char
+    - Lists
+    - Strings
+    - Tuples + Tuples VS Lists
 - Polymorphic values and type variables
 
 ### 3. Pattern matching and how to write functions
