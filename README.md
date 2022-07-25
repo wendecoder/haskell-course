@@ -66,7 +66,7 @@ Everything else can be safely ignored
   - How to open and use GitPod
   - Example of how to complete a homework assignment.
 
-### 2. Data types, Signatures, Common data types, and Polymorphism
+### 2. Data types, Signatures, and Polymorphism
 
 - Pragmatic intro to types
 - Type signature
