@@ -60,7 +60,7 @@ Everything else can be safely ignored
   - Purely functional programming language
   - Basic syntax
   - Haskell Type system
-  - Lazyness
+  - Laziness
   - GHC (and GHCi)
 - GitPod
   - How to open and use GitPod
@@ -70,20 +70,20 @@ Everything else can be safely ignored
 
 - Pragmatic intro to types
 - Type signature
-    - Function’s signatures
-    - Variables in Haskell
-        - Parameters in functions
-        - Names/Definitions
+  - Function’s signatures
+  - Variables in Haskell
+    - Parameters in functions
+    - Names/Definitions
 - Infix and prefix functions
 - Data Types in depth
-    - Int, Integer
-    - Float, Double
-    - Rational
-    - Bool
-    - Char
-    - Lists
-    - Strings
-    - Tuples + Tuples VS Lists
+  - Int, Integer
+  - Float, Double
+  - Rational
+  - Bool
+  - Char
+  - Lists
+  - Strings
+  - Tuples + Tuples VS Lists
 - Polymorphic values and type variables
 
 ### 3. Pattern matching and how to write functions
