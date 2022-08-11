@@ -11,7 +11,7 @@ In the [outline](#what-well-cover) below, there are clear stopping points (for b
 
 ## How to read/watch the lessons
 
-To go through the interactive lessons, go to your chosen lesson's outline inside "[What we'll cover](#what-well-cover)" and click on the button that looks like this:
+To go through the interactive lessons, go to your chosen lesson's outline inside "[What we'll cover](#what-well-cover)" and click on the button that looks like the one below. If the page loads with a "500: Internal Server Error" just refresh it and it should be fine. At the top you will see a console that displays the progress of preparing your interactive lesson. During this time you can scroll down and look at the lesson, that is displayed non-interactively. 
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/input-output-hk/haskell-course/HEAD?labpath=%2Flessons%2F01-Introduction-to-haskell.ipynb)
 
