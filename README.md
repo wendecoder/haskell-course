@@ -259,19 +259,19 @@ Everything else can be safely ignored
 - Complete definition (with all the details/laws)
 - `do` notation in general
 
-### 21. Reader Monad
+### 21. Monadic functions / Operating with Monads
 
 - TODO
 
-### 22. Writer Monad
+### 22. Reader Monad
 
 - TODO
 
-### 23. State Monad
+### 23. Writer Monad
 
 - TODO
 
-### 24. Monadic functions / Operating with Monads
+### 24. State Monad
 
 - TODO
 
