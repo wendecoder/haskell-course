@@ -11,7 +11,7 @@ In the [outline](#what-well-cover) below, there are clear stopping points (for b
 
 ## How to read/watch the lessons
 
-To go through the interactive lessons, go to your chosen lesson's outline inside "[What we'll cover](#what-well-cover)" and click on the button that looks like the one below. If the page loads with a "500: Internal Server Error" just refresh it and it should be fine. At the top you will see a console that displays the progress of preparing your interactive lesson. During this time you can scroll down and look at the lesson, that is displayed non-interactively. 
+To go through the interactive lessons, go to your chosen lesson's outline inside "[What we'll cover](#what-well-cover)" and click on the button that looks like the one below. If the page loads with a "500: Internal Server Error" just refresh it and it should be fine. At the top you will see a console that displays the progress of preparing your interactive lesson. During this time you can scroll down and look at the lesson, that is displayed non-interactively.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/input-output-hk/haskell-course/HEAD?labpath=%2Flessons%2F01-Introduction-to-haskell.ipynb)
 
@@ -86,20 +86,24 @@ Everything else can be safely ignored
   - Tuples + Tuples VS Lists
 - Polymorphic values and type variables
 
-### 3. Pattern matching and how to write functions
+### 3. Conditions and helper constructions
 
 - If-then-else
-- What is pattern matching
-- Where can I use pattern matching + nested pattern matching
-  - Pattern matching on function implementations
-  - Pattern matching on on lists
-  - Pattern matching on tuples
-- Case
 - Guards
-- Let and where
-- When to pattern match, if, case, and guards
+- `let`
+- `where`
+- Using `let` and `where` together
 
-### 4. Improving and combining functions
+### 4. Pattern matching and Case
+
+- What is pattern matching
+- Pattern matching on
+  - Function implementations
+  - Lists
+  - Tuples
+- Case
+
+### 5. Improving and combining functions
 
 - Higher order functions
 - Curried functions
@@ -107,19 +111,19 @@ Everything else can be safely ignored
 - Composing and applying functions (`.` and `$` operators)
 - Lambda functions
 
-### 5. Recursion
+### 6. Recursion
 
 - Concept
 - Examples
 
-### 6. Dealing with lists
+### 7. Dealing with lists
 
 - `zip`
 - `map`
 - `foldl`, `foldr`
 - `scan`
 
-### 7. Intro to Type Classes
+### 8. Intro to Type Classes
 
 - What are type classes?
 - Common type classes
@@ -131,7 +135,7 @@ Everything else can be safely ignored
   - Mentioning `Read`, `Show`, `Enum`, `Bounded`, and `Foldable`.
 - Class constraints with examples
 
-### 8. Creating Types
+### 9. Creating Types
 
 - Type synonyms
   - How to define type synonyms
@@ -146,7 +150,7 @@ Everything else can be safely ignored
   - Parameterizing new types
 - Honorable mention of `newType`
 
-### 9. Creating Type Classes and Instances
+### 10. Creating Type Classes and Instances
 
 - Revisiting Type Classes
 - The `Eq` type class
@@ -159,7 +163,7 @@ Everything else can be safely ignored
 - Deriving
 - Complete example
 
-### 10. Basic IO
+### 11. Basic IO
 
 - We need side effects
 - What is IO
@@ -174,11 +178,14 @@ Everything else can be safely ignored
 - Read/Write to console
 - Read/Write to file
 
-### 11. Complete project using IO
+### 12. Bits and Bytes
 
-- #To define
+- Grouping bits and bytes
+- Haskell and bytes
+- Lazy and strict byte strings
+- Example
 
-### 12. Pragmas, Modules, and Cabal
+### 13. Pragmas, Modules, and Cabal
 
 - Prelude
 - pragmas/extensions
@@ -194,14 +201,14 @@ Everything else can be safely ignored
   - Cabal file
   - Using external libraries with Cabal
 
-### 13. Learning on you own and Map
+### 14. Learning on you own and Map
 
 - Using GHCi to find out more
 - Hoogle
 - HaskellWiki
 - Walking through while teaching Map module
 
-### 14. Maybe and Either (only practical use)
+### 15. Maybe and Either (only practical use)
 
 - Maybe
   - Why and when to use Maybe
@@ -213,10 +220,9 @@ Everything else can be safely ignored
   - Examples
 - Project using Maybe and IO
 
-### 15. Aeson and final project for Marlowe students
+### 16. Aeson
 
 - Aeson
-- Final project recapping all the concepts
 
 ---
 
@@ -224,10 +230,51 @@ Everything else can be safely ignored
 
 ---
 
-### 16. Identifying the pattern
+### 17. Monoid
 
-    - #TODO
+- Basic idea (definition without details)
+- Intuitive examples
+- Extracting the pattern
+- Complete definition (with all the details/laws)
 
-### 17. Monads (most likely will split in several lessons)
+### 18. Functor
 
-    - #TODO
+- Basic idea (definition without details)
+- Intuitive examples
+- Extracting the pattern
+- Complete definition (with all the details/laws)
+
+### 19. Applicative
+
+- Basic idea (definition without details)
+- Intuitive examples
+- Extracting the pattern
+- Complete definition (with all the details/laws)
+
+### 20. Monad
+
+- Basic idea (definition without details)
+- Intuitive examples
+- Extracting the pattern
+- Complete definition (with all the details/laws)
+- `do` notation in general
+
+### 21. Reader Monad
+
+- TODO
+
+### 22. Writer Monad
+
+- TODO
+
+### 23. State Monad
+
+- TODO
+
+### 24. Monadic functions / Operating with Monads
+
+- TODO
+
+### 25. Transformers
+
+- TODO
