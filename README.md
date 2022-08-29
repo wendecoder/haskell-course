@@ -259,21 +259,34 @@ Everything else can be safely ignored
 - Complete definition (with all the details/laws)
 - `do` notation in general
 
-### 21. Monadic functions / Operating with Monads
+### 21. Reader Monad
 
-- TODO
+- Incentive/Motivation
+- Binding strategy (see [here](https://wiki.haskell.org/All_About_Monads#The_Reader_monad))
+- Definition
+- Examples
 
-### 22. Reader Monad
+### 22. Writer Monad
 
-- TODO
+- Incentive/Motivation
+- Binding strategy
+- Definition
+- Examples
 
-### 23. Writer Monad
+### 23. State Monad
 
-- TODO
+- Incentive/Motivation
+- Binding strategy
+- Definition
+- Examples
 
-### 24. State Monad
+### 24. Monadic functions / Operating with Monads
 
-- TODO
+- liftM
+- sequence and sequence_
+- mapM and mapM_
+- filterM
+- foldM
 
 ### 25. Transformers
 
