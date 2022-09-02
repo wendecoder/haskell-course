@@ -3,7 +3,7 @@
 **This course is designed to teach students Haskell from zero to everything needed to work with Marlowe and Plutus.** The course itself doesn't contain content specific to Marlowe or Plutus. So, if you want to use it to learn Haskell for other purposes, you can! 😃
 
 For a more detailed explanation, keep reading or watch the introduction video:
-[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=flat&logo=YouTube&logoColor=white)](https://www.youtube.com/channel/UCX9j__vYOJu00iqBrCzecVw)
+[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=flat&logo=YouTube&logoColor=white)](https://youtu.be/H1vbUKMKvnM)
 
 ## How much should I study if I only want to use Marlowe/Plutus?
 
@@ -17,7 +17,7 @@ To go through the interactive lessons, go to your chosen lesson's outline inside
 
 And to see the video, click on the button that looks like this:
 
-[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=flat&logo=YouTube&logoColor=white)](https://www.youtube.com/channel/UCX9j__vYOJu00iqBrCzecVw)
+[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=flat&logo=YouTube&logoColor=white)](https://youtu.be/H1vbUKMKvnM)
 
 ## To do the homework
 
@@ -50,7 +50,7 @@ Everything else can be safely ignored
 
 **If there are no buttons on a lesson, it means that it's not published yet.**
 
-### 1. Intro and tools [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/input-output-hk/haskell-course/HEAD?labpath=%2Flessons%2F01-Introduction-to-haskell.ipynb) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=flat&logo=YouTube&logoColor=white)](https://www.youtube.com/channel/UCX9j__vYOJu00iqBrCzecVw)
+### 1. Intro and tools [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/input-output-hk/haskell-course/HEAD?labpath=%2Flessons%2F01-Introduction-to-haskell.ipynb) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=flat&logo=YouTube&logoColor=white)](https://youtu.be/pkU8eiNZipQ)
 
 - Intro to the course and lectures
   - What we’ll cover
