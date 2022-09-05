@@ -5,7 +5,7 @@
 For a more detailed explanation, keep reading or watch the introduction video:
 [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=flat&logo=YouTube&logoColor=white)](https://youtu.be/H1vbUKMKvnM)
 
-## How much should I study if I only wish to to use Marlowe/Plutus?
+## How much should I study if I only wish to use Marlowe/Plutus?
 
 In the [outline](#what-well-cover) below, there are clear stopping points (for both Marlowe and Plutus) where we deem you to know enough Haskell to effectively use the technology.
 
