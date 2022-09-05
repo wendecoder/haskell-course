@@ -5,13 +5,13 @@
 For a more detailed explanation, keep reading or watch the introduction video:
 [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=flat&logo=YouTube&logoColor=white)](https://youtu.be/H1vbUKMKvnM)
 
-## How much should I study if I only want to use Marlowe/Plutus?
+## How much should I study if I only wish to to use Marlowe/Plutus?
 
 In the [outline](#what-well-cover) below, there are clear stopping points (for both Marlowe and Plutus) where we deem you to know enough Haskell to effectively use the technology.
 
 ## How to read/watch the lessons
 
-To go through the interactive lessons, go to your chosen lesson's outline inside "[What we'll cover](#what-well-cover)" and click on the button that looks like the one below. If the page loads with a "500: Internal Server Error" just refresh it and it should be fine. At the top you will see a console that displays the progress of preparing your interactive lesson. During this time you can scroll down and look at the lesson, that is displayed non-interactively.
+To go through the interactive lessons, go to your chosen lesson's outline inside "[What we'll cover](#what-well-cover)" and click on the button that looks like the one below. If the page loads with a "500: Internal Server Error" just refresh it, and it should be fine. At the top, you will see a console that displays the progress of preparing your interactive lesson. During this time, you can scroll down and look at the lesson, that is displayed non-interactively.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/input-output-hk/haskell-course/HEAD?labpath=%2Flessons%2F01-Introduction-to-haskell.ipynb)
 
@@ -37,7 +37,7 @@ And to see the video, click on the button that looks like this:
         |          |---- Homework02 (Homework for lesson 02)
         |          ...
         |
-        |-------- lessons (Lessons in Juptyer notebook format. Access through Binder.)
+        |-------- lessons (Lessons in Jupyter notebook format. Access through Binder.)
                    |
                    |---- 1-Introduction-to-haskell
                    |---- 2-Functions-Data-Types-and-Signatures
@@ -105,7 +105,7 @@ Everything else can be safely ignored
 
 ### 5. Improving and combining functions
 
-- Higher order functions
+- Higher-order functions
 - Curried functions
 - Partial application
 - Composing and applying functions (`.` and `$` operators)
@@ -201,7 +201,7 @@ Everything else can be safely ignored
   - Cabal file
   - Using external libraries with Cabal
 
-### 14. Learning on you own and Map
+### 14. Learning on your own and Map
 
 - Using GHCi to find out more
 - Hoogle
