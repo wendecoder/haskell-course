@@ -44,6 +44,10 @@ And to see the video, click on the button that looks like this:
 
 Everything else can be safely ignored
 
+## FAQ
+
+[FAQ](FAQ.md)
+
 ## What we'll cover
 
 **This is a tentative outline. Changes can (and will) be made as we advance with the course and gather feedback from students.**
