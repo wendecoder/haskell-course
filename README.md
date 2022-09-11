@@ -31,7 +31,7 @@ And to see the video, click on the button that looks like this:
 
     Haskell-Course
         |   |
-        |   |---- code
+        |   |---- Homework
         |          |
         |          |---- Homework01 (Homework for lesson 01)
         |          |---- Homework02 (Homework for lesson 02)
