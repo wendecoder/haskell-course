@@ -70,7 +70,9 @@ Everything else can be safely ignored
   - How to open and use GitPod
   - Example of how to complete a homework assignment.
 
-### 2. Data types, Signatures, and Polymorphism
+
+### 2. Data types, Signatures, and Polymorphism [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/input-output-hk/haskell-course/HEAD?labpath=%2Flessons%2F02-Functions-Data-Types-and-Signatures.ipynb) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=flat&logo=YouTube&logoColor=white)](https://youtu.be/RABzYje2d2A)
+
 
 - Pragmatic intro to types
 - Type signature
