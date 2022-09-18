@@ -49,6 +49,10 @@ Everything else can be safely ignored
 
 [FAQ](FAQ.md)
 
+## Proposed changes for next iteration/version
+
+[Changes](Changes.md)
+
 ## What we'll cover
 
 **This is a tentative outline. Changes can (and will) be made as we advance with the course and gather feedback from students.**
