@@ -97,7 +97,7 @@ Everything else can be safely ignored
   - Tuples + Tuples VS Lists
 - Polymorphic values and type variables
 
-### 3. Conditions and helper constructions
+### 3. Conditions and helper constructions [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/input-output-hk/haskell-course/HEAD?labpath=%2Flessons%2F03-Conditions-and-helper-constructions.ipynb) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=flat&logo=YouTube&logoColor=white)](https://www.youtube.com/watch?v=G0XPELNZuws)
 
 - If-then-else
 - Guards
