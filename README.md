@@ -101,9 +101,10 @@ Everything else can be safely ignored
 
 - If-then-else
 - Guards
-- `let`
+- `let` expressions
 - `where`
-- Using `let` and `where` together
+- Should I use `let` or `where`?
+- Things to keep in mind
 
 ### 4. Pattern matching and Case
 
