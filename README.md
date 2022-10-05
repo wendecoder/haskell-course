@@ -130,6 +130,7 @@ Everything else can be safely ignored
 - Composing and applying functions
   - The `$` operator
   - The `.` operator
+- Point-free style
 
 ### 6. Recursion
 
