@@ -1,6 +1,6 @@
 # Haskell Course 
 
-[🇪🇸 version](https://github.com/input-output-hk/haskell-course/tree/main/ES-translation)
+[Versión en 🇪🇸](https://github.com/input-output-hk/haskell-course/tree/main/ES-translation)
 
 **This course is designed to teach students Haskell from zero to everything needed to work with Marlowe and Plutus.** The course itself doesn't contain content specific to Marlowe or Plutus. So, if you want to use it to learn Haskell for other purposes, you can! 😃
 
