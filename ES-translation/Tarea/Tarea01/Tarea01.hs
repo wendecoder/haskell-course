@@ -14,4 +14,3 @@
 
 -- Pregunta 5
 -- Define una función que chequee si el volúmen de un cilindro es mayor o igual a 42.
-
