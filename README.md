@@ -175,7 +175,7 @@ Everything else can be safely ignored
   - Value parameters
 - Record syntax
 
-# 9. Creating Parameterized and Recursive Types
+### 9. Creating Parameterized and Recursive Types
 
 - Type Parameters
   - Prameteryzing type synonyms
