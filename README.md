@@ -244,9 +244,17 @@ In this section, we learn about Haskell tooling and the necessary concepts to st
 - Creating our own Modules
 - The Prelude and Standard Libraries
 
-### 14. Cabal and language extensions
+### 14. Cabal and language extensions [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/input-output-hk/haskell-course/HEAD?labpath=%2Flessons%2F14-Cabal_and_language_extensions.ipynb) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=flat&logo=YouTube&logoColor=white)](https://www.youtube.com/watch?v=AvpMOMSSZHs&list=PLNEK_Ejlx3x1D9Vq5kqeC3ZDEP7in4dqb&index=15)
 
-- TODO
+- Cabal
+    - Introduction to Cabal
+    - Creating a new Haskell project
+    - Going over the Cabal file using an external library
+    - Building and running our executable
+- Language extensions and Pragmas
+    - Introduction
+    - NumericUnderscores
+    - TypeApplications
 
 ### 14. Handling Errors
 
