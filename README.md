@@ -2,7 +2,7 @@
 
 [Versión en 🇪🇸](https://github.com/input-output-hk/haskell-course/tree/main/ES-translation)
 
-**This course is designed to teach students Haskell from zero to everything needed to work with Marlowe and Plutus.** The course itself doesn't contain content specific to Marlowe or Plutus. So, if you want to use it to learn Haskell for other purposes, you can! 😃
+**This course is designed to teach non-engineers (e.g., self-taught/bootcamp coders) Haskell from zero to productive in an interactive, easy-to-follow way.** The course doesn't contain content specific to [Marlowe](https://marlowe.iohk.io/) or [Plutus](https://plutus.readthedocs.io/en/latest/), but it will cover everything needed to work with them.
 
 For a more detailed explanation, keep reading or watch the introduction video:
 [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=flat&logo=YouTube&logoColor=white)](https://youtu.be/H1vbUKMKvnM)
@@ -13,11 +13,11 @@ In the [outline](#what-well-cover) below, there are clear stopping points (for b
 
 ## How to read/watch the lessons
 
-To go through the interactive lessons, go to your chosen lesson's outline inside "[What we'll cover](#what-well-cover)" and click on the button that looks like the one below. If the page loads with a "500: Internal Server Error" just refresh it, and it should be fine. At the top, you will see a console that displays the progress of preparing your interactive lesson. During this time, you can scroll down and look at the lesson, that is displayed non-interactively.
+To go through the **interactive lessons**, go to your chosen lesson's outline inside "[What we'll cover](#what-well-cover)" and click on the button that looks like the one below. If the page loads with a "500: Internal Server Error" just refresh it, and it should be fine. At the top, you will see a console that displays the progress of preparing your interactive lesson. During this time, you can scroll down and look at the lesson, that is displayed non-interactively.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/input-output-hk/haskell-course/HEAD?labpath=%2Flessons%2F01-Introduction-to-haskell.ipynb)
 
-And to see the video, click on the button that looks like this:
+And to see the **video lessons**, click on the button that looks like this:
 
 [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=flat&logo=YouTube&logoColor=white)](https://youtu.be/H1vbUKMKvnM)
 
