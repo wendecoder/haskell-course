@@ -1,8 +1,5 @@
 module Main where
 
-import Control.Exception (catch, try)
-import Text.Read (readMaybe)
-
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 -- IMPORTANT: Read the README.md file before completing the homework.
@@ -29,31 +26,19 @@ prompt todos = do
   command <- getLine
   interpretCommand command todos
 
-delete :: Maybe Int -> [a] -> [a]
-delete Nothing as = as
+delete :: Int -> [a] -> [a]
+delete 0 (_ : as) = as
 delete _ [] = []
-delete (Just 0) (_ : as) = as
-delete (Just n) (a : as) = a : delete (Just (n - 1)) as
+delete n (a : as) = a : delete (n - 1) as
 
 interpretCommand :: String -> [String] -> IO ()
 interpretCommand cmd todos = case cmd of
   "q" -> return ()
   ('+' : ' ' : todo) -> prompt (todo : todos)
-  ('-' : ' ' : num) -> prompt $ delete (readMaybe num) todos
+  ('-' : ' ' : num) -> prompt $ delete (read num) todos
   ('s' : ' ' : fn) ->
-    writeFile fn (show todos) `catch` \e -> do
-      putStrLn $ "Could not write to file because: " ++ show (e :: IOError)
-      prompt todos
-  -- There's no reason as to why this and the previous case should handle
-  -- errors differently. I did it this way so you can see how to handle errors
-  -- in different ways.
-  ('l' : ' ' : fn) -> do
-    contents <- try $ readFile fn >>= return . read
-    case contents of
-      Left e -> do
-        putStrLn $ "Could not read from file because: " ++ show (e :: IOError)
-        prompt todos
-      Right todos' -> prompt todos'
+    writeFile fn (show todos)
+  ('l' : ' ' : fn) -> readFile fn >>= prompt . read
   _ -> do
     putStrLn ("Invalid command: `" ++ cmd ++ "`")
     prompt todos
